@@ -1,0 +1,25 @@
+def grade_tracker():
+    subjects = int(input("Enter number of subjects: "))
+    grades = []
+    
+    for _ in range(subjects):
+        grade = float(input("Enter grade for subject: "))
+        grades.append(grade)
+    
+    average = sum(grades) / len(grades)
+    print(f"Average Grade: {average}")
+    
+    if average >= 90:
+        grade_letter = 'A'
+    elif average >= 80:
+        grade_letter = 'B'
+    elif average >= 70:
+        grade_letter = 'C'
+    elif average >= 60:
+        grade_letter = 'D'
+    else:
+        grade_letter = 'F'
+    
+    print(f"Letter Grade: {grade_letter}")
+
+grade_tracker()
