@@ -20,3 +20,6 @@ Develop a Python program to track and manage student grades for different subjec
 
 **Result**
 
+![Screenshot (357)](https://github.com/user-attachments/assets/60653cdd-41cc-4c43-9b9a-7e76701d1f3b)
+
+
